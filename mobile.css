@@ -1,0 +1,94 @@
+#menu-checkbox{
+	display:none;
+}
+@media screen and (max-width:980px){
+
+body .site {
+    width: auto!important;
+}
+.main-navigation {
+    height: auto!important;
+}
+.main-navigation {
+    height: auto!important;
+}
+.main-navigation li a, .main-navigation li {
+    display: block!important;
+}
+.wrapper {
+    margin: 20px auto 5px!important;
+    padding: 30px 5px 40px!important;
+    width: auto!important;
+}
+#cars {
+    height: auto!important;
+    width: auto!important;
+	background: none!important;
+}
+#vip, div.cars2 {
+    display:none;
+}
+#hgr {
+    position: static!important;
+}
+.languages {
+    margin-left: 0px!important;
+    padding-top: 10px!important;
+    position: static!important;
+}
+.logo a {
+    display: block!important;
+    width: auto!important;
+}
+.ngg-galleryoverview {
+    text-align: center;
+}
+.ngg-gallery-thumbnail-box {
+    display: inline-block!important;
+    float: none!important;
+}
+.toggle-button {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #363636 0%, #121212 100%) repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 33px;
+    margin-top: 10px;
+    text-align: center;
+}
+.toggle-button::after {
+    content: attr(data-open);
+    display: block;
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    padding-top: 8px;
+}
+.toggle-button::before {
+    background: rgba(0, 0, 0, 0) url("/pull.png") no-repeat scroll center center;
+    content: "";
+    display: block;
+    height: 33px;
+    left: 5px;
+    position: absolute;
+    width: 35px;
+}
+#menu-checkbox:checked + nav[role="navigation"] ul {
+    display: block;
+    width: auto;
+}
+#menu-checkbox:checked + nav[role="navigation"] .toggle-button::after {
+    content: attr(data-close);
+}
+#site-navigation ul{
+	display:none;
+}
+}
+
+@media screen and (max-width:460px){
+.logo a {
+    height: 29px!important;
+	background-size:100%!important;
+	margin: 0 auto;
+    width: 270px !important;
+}
+}
